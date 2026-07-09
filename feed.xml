@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
+    <title>Portfolio</title>
+    <link href="https://PawelZieba01.github.io/feed.xml" rel="self" />
+    <link href="https://PawelZieba01.github.io" />
+    <updated>2026-07-09T13:13:31+02:00</updated>
+    <author>
+        <name>Paweł Zięba</name>
+    </author>
+    <id>https://PawelZieba01.github.io</id>
+
+    <entry>
+        <title>To jest post?</title>
+        <author>
+            <name>Paweł Zięba</name>
+        </author>
+        <link href="https://PawelZieba01.github.io/to-jest-post.html"/>
+        <id>https://PawelZieba01.github.io/to-jest-post.html</id>
+
+        <updated>2026-07-09T13:13:31+02:00</updated>
+            <summary></summary>
+        <content></content>
+    </entry>
+</feed>

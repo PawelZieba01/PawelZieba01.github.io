@@ -1,0 +1,26 @@
+{
+    "version": "https://jsonfeed.org/version/1",
+    "title": "Portfolio",
+    "description": "",
+    "home_page_url": "https://PawelZieba01.github.io",
+    "feed_url": "https://PawelZieba01.github.io/feed.json",
+    "user_comment": "",
+    "icon": "https://PawelZieba01.github.io/media/website/PZlogo-Photoroom.png",
+    "author": {
+        "name": "Paweł Zięba"
+    },
+    "items": [
+        {
+            "id": "https://PawelZieba01.github.io/to-jest-post.html",
+            "url": "https://PawelZieba01.github.io/to-jest-post.html",
+            "title": "To jest post?",
+            "author": {
+                "name": "Paweł Zięba"
+            },
+            "tags": [
+            ],
+            "date_published": "2026-07-09T13:13:31+02:00",
+            "date_modified": "2026-07-09T13:13:31+02:00"
+        }
+    ]
+}
