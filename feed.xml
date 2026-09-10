@@ -3,12 +3,80 @@
     <title>Portfolio</title>
     <link href="https://PawelZieba01.github.io/feed.xml" rel="self" />
     <link href="https://PawelZieba01.github.io" />
-    <updated>2026-08-31T16:56:39+02:00</updated>
+    <updated>2026-09-10T15:55:54+02:00</updated>
     <author>
         <name>Paweł Zięba</name>
     </author>
     <id>https://PawelZieba01.github.io</id>
 
+    <entry>
+        <title>Linux Device Drivers – Engineering Thesis</title>
+        <author>
+            <name>Paweł Zięba</name>
+        </author>
+        <link href="https://PawelZieba01.github.io/linux-device-drivers-engineering-thesis.html"/>
+        <id>https://PawelZieba01.github.io/linux-device-drivers-engineering-thesis.html</id>
+        <media:content url="https://PawelZieba01.github.io/media/posts/12/rpi1-2.png" medium="image" />
+
+        <updated>2026-09-10T15:54:00+02:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://PawelZieba01.github.io/media/posts/12/rpi1-2.png" alt="" />
+                    Linux Device Drivers – Engineering Thesis Practical introduction to Linux device driver development using SPI and I²C devices This project was developed as part of my Engineering Thesis at AGH University of Krakow. Its main goal was to explore Linux kernel mechanisms used for hardware&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://PawelZieba01.github.io/media/posts/12/rpi1-2.png" class="type:primaryImage" alt="" /></p>
+                <h1>Linux Device Drivers – Engineering Thesis</h1>
+<figure class="post__image"><img loading="lazy"  src="https://PawelZieba01.github.io/media/posts/12/rpi1.png" alt="" width="559" height="296" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-xs.png 640w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-sm.png 768w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-md.png 1024w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-lg.png 1366w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-xl.png 1600w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-2xl.png 1920w"></figure>
+<h3>Practical introduction to Linux device driver development using SPI and I²C devices</h3>
+<p class="isSelectedEnd">This project was developed as part of my Engineering Thesis at AGH University of Krakow. Its main goal was to explore Linux kernel mechanisms used for hardware communication and to implement practical device drivers for external peripherals.</p>
+<p class="isSelectedEnd">The project combines low-level programming in C with hands-on hardware development on a Raspberry Pi platform.</p>
+<h2>About the project</h2>
+<p class="isSelectedEnd">The work started with the fundamentals of <strong>Linux Kernel Modules (LKM)</strong> and gradually moved towards complete device drivers communicating with real hardware.</p>
+<p class="isSelectedEnd">As part of the project, I implemented and explored:</p>
+<ul data-spread="false">
+<li>Linux Kernel Modules and their lifecycle</li>
+<li>Character device drivers and communication between userspace and kernel space</li>
+<li>Device Tree and hardware description</li>
+<li>Platform devices and platform drivers</li>
+<li>SPI device drivers</li>
+<li>I²C device drivers</li>
+<li>REGMAP API</li>
+<li>Hardware control directly from the Linux kernel</li>
+</ul>
+<p class="isSelectedEnd">The individual stages of development were separated into dedicated Git branches, making it possible to follow the project from basic kernel modules to more advanced hardware drivers.</p>
+<h2>SPI</h2>
+<figure class="post__image"><img loading="lazy"  src="https://PawelZieba01.github.io/media/posts/12/periph.png" alt="" width="481" height="387" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://PawelZieba01.github.io/media/posts/12/responsive/periph-xs.png 640w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-sm.png 768w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-md.png 1024w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-lg.png 1366w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-xl.png 1600w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-2xl.png 1920w"></figure>
+<p class="isSelectedEnd">As part of the SPI section, I implemented drivers for external peripheral devices, including the <strong>MCP4921/MCP4922 digital-to-analog converter (DAC)</strong>.</p>
+<p class="isSelectedEnd">The project covers communication between the Linux kernel and SPI devices as well as the integration of hardware peripherals with the Linux device model.</p>
+<p class="isSelectedEnd">I also explored communication with an I/O port expander using the Linux kernel <strong>REGMAP API</strong>.</p>
+<h2>I²C</h2>
+<p class="isSelectedEnd">The project also includes implementations of drivers for external integrated circuits communicating over the <strong>I²C bus</strong>.</p>
+<p class="isSelectedEnd">This part allowed me to explore how the Linux kernel handles I²C devices and how hardware described through Device Tree can be matched with the appropriate kernel driver.</p>
+<h2>Platform Devices</h2>
+<figure class="post__image"><img loading="lazy"  src="https://PawelZieba01.github.io/media/posts/12/rpi_hat.png" alt="" width="528" height="251" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-xs.png 640w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-sm.png 768w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-md.png 1024w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-lg.png 1366w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-xl.png 1600w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-2xl.png 1920w"></figure>
+<p class="isSelectedEnd">In addition to SPI and I²C devices, I implemented practical examples based on Linux platform devices.</p>
+<p class="isSelectedEnd">These included drivers used to control hardware such as:</p>
+<ul data-spread="false">
+<li>LEDs</li>
+<li>servo motors</li>
+</ul>
+<p class="isSelectedEnd">This provided practical experience with the Linux device model and communication between kernel-space software and physical hardware.</p>
+<h2>Technologies</h2>
+<p><strong>Programming:</strong> C<br><strong>Operating System:</strong> Linux, Kernel 6.1<br><strong>Platform:</strong> Raspberry Pi<br><strong>Kernel:</strong> Linux Kernel Modules, Device Drivers<br><strong>Hardware Description:</strong> Device Tree<br><strong>Interfaces:</strong> SPI, I²C<br><strong>Linux APIs:</strong> REGMAP, Platform Devices</p>
+<h2>What I learned</h2>
+<p class="isSelectedEnd">The project gave me practical experience with Linux development at kernel level and helped me understand how the operating system communicates with hardware.</p>
+<p class="isSelectedEnd">It also allowed me to combine my electronics background with software development by working directly with physical peripherals connected through SPI and I²C.</p>
+<p class="isSelectedEnd">The project became the foundation for my further development in <strong>Embedded Linux, Yocto and SoC-based systems</strong>.</p>
+<h2>Source code &amp; Engineering Thesis</h2>
+<p class="isSelectedEnd">The complete source code, individual development stages and the full Engineering Thesis are available in the GitHub repository.</p>
+<p><strong>GitHub:</strong><br><a href="https://github.com/PawelZieba01/LINUX_Drivers_LKM_DT" data-rich-text-autolink="">https://github.com/PawelZieba01/LINUX_Drivers_LKM_DT</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Smart Coffee Machine – ESP32 &amp; Home Assistant</title>
         <author>
@@ -263,74 +331,6 @@
 <h2 data-section-id="1esffh1" data-start="4926" data-end="4940">Source Code</h2>
 <p data-start="4942" data-end="5066">The complete source code, including the server, database integration, test client and web interface, is available on GitHub.</p>
 <p data-start="5068" data-end="5119" data-is-last-node="" data-is-only-node=""><strong data-start="5068" data-end="5079">GitHub:</strong><br data-start="5079" data-end="5082"><span class="contents" data-content-reference-start="5081" data-content-reference-end="5156"><span class="" data-state="closed"><a target="_blank" class="decorated-link cursor-pointer" rel="noopener">BeeexAPI – GitHub Repository</a></span></span></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Linux Device Drivers – Engineering Thesis</title>
-        <author>
-            <name>Paweł Zięba</name>
-        </author>
-        <link href="https://PawelZieba01.github.io/linux-device-drivers-engineering-thesis.html"/>
-        <id>https://PawelZieba01.github.io/linux-device-drivers-engineering-thesis.html</id>
-        <media:content url="https://PawelZieba01.github.io/media/posts/12/rpi1-2.png" medium="image" />
-
-        <updated>2026-08-31T15:54:51+02:00</updated>
-            <summary type="html">
-                <![CDATA[
-                        <img src="https://PawelZieba01.github.io/media/posts/12/rpi1-2.png" alt="" />
-                    Linux Device Drivers – Engineering Thesis Practical introduction to Linux device driver development using SPI and I²C devices This project was developed as part of my Engineering Thesis at AGH University of Krakow. Its main goal was to explore Linux kernel mechanisms used for hardware&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <p><img src="https://PawelZieba01.github.io/media/posts/12/rpi1-2.png" class="type:primaryImage" alt="" /></p>
-                <h1>Linux Device Drivers – Engineering Thesis</h1>
-<figure class="post__image"><img loading="lazy"  src="https://PawelZieba01.github.io/media/posts/12/rpi1.png" alt="" width="559" height="296" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-xs.png 640w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-sm.png 768w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-md.png 1024w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-lg.png 1366w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-xl.png 1600w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi1-2xl.png 1920w"></figure>
-<h3>Practical introduction to Linux device driver development using SPI and I²C devices</h3>
-<p class="isSelectedEnd">This project was developed as part of my Engineering Thesis at AGH University of Krakow. Its main goal was to explore Linux kernel mechanisms used for hardware communication and to implement practical device drivers for external peripherals.</p>
-<p class="isSelectedEnd">The project combines low-level programming in C with hands-on hardware development on a Raspberry Pi platform.</p>
-<h2>About the project</h2>
-<p class="isSelectedEnd">The work started with the fundamentals of <strong>Linux Kernel Modules (LKM)</strong> and gradually moved towards complete device drivers communicating with real hardware.</p>
-<p class="isSelectedEnd">As part of the project, I implemented and explored:</p>
-<ul data-spread="false">
-<li>Linux Kernel Modules and their lifecycle</li>
-<li>Character device drivers and communication between userspace and kernel space</li>
-<li>Device Tree and hardware description</li>
-<li>Platform devices and platform drivers</li>
-<li>SPI device drivers</li>
-<li>I²C device drivers</li>
-<li>REGMAP API</li>
-<li>Hardware control directly from the Linux kernel</li>
-</ul>
-<p class="isSelectedEnd">The individual stages of development were separated into dedicated Git branches, making it possible to follow the project from basic kernel modules to more advanced hardware drivers.</p>
-<h2>SPI</h2>
-<figure class="post__image"><img loading="lazy"  src="https://PawelZieba01.github.io/media/posts/12/periph.png" alt="" width="481" height="387" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://PawelZieba01.github.io/media/posts/12/responsive/periph-xs.png 640w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-sm.png 768w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-md.png 1024w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-lg.png 1366w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-xl.png 1600w ,https://PawelZieba01.github.io/media/posts/12/responsive/periph-2xl.png 1920w"></figure>
-<p class="isSelectedEnd">As part of the SPI section, I implemented drivers for external peripheral devices, including the <strong>MCP4921/MCP4922 digital-to-analog converter (DAC)</strong>.</p>
-<p class="isSelectedEnd">The project covers communication between the Linux kernel and SPI devices as well as the integration of hardware peripherals with the Linux device model.</p>
-<p class="isSelectedEnd">I also explored communication with an I/O port expander using the Linux kernel <strong>REGMAP API</strong>.</p>
-<h2>I²C</h2>
-<p class="isSelectedEnd">The project also includes implementations of drivers for external integrated circuits communicating over the <strong>I²C bus</strong>.</p>
-<p class="isSelectedEnd">This part allowed me to explore how the Linux kernel handles I²C devices and how hardware described through Device Tree can be matched with the appropriate kernel driver.</p>
-<h2>Platform Devices</h2>
-<figure class="post__image"><img loading="lazy"  src="https://PawelZieba01.github.io/media/posts/12/rpi_hat.png" alt="" width="528" height="251" sizes="(max-width: 1920px) 100vw, 1920px" srcset="https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-xs.png 640w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-sm.png 768w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-md.png 1024w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-lg.png 1366w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-xl.png 1600w ,https://PawelZieba01.github.io/media/posts/12/responsive/rpi_hat-2xl.png 1920w"></figure>
-<p class="isSelectedEnd">In addition to SPI and I²C devices, I implemented practical examples based on Linux platform devices.</p>
-<p class="isSelectedEnd">These included drivers used to control hardware such as:</p>
-<ul data-spread="false">
-<li>LEDs</li>
-<li>servo motors</li>
-</ul>
-<p class="isSelectedEnd">This provided practical experience with the Linux device model and communication between kernel-space software and physical hardware.</p>
-<h2>Technologies</h2>
-<p><strong>Programming:</strong> C<br><strong>Operating System:</strong> Linux, Kernel 6.1<br><strong>Platform:</strong> Raspberry Pi<br><strong>Kernel:</strong> Linux Kernel Modules, Device Drivers<br><strong>Hardware Description:</strong> Device Tree<br><strong>Interfaces:</strong> SPI, I²C<br><strong>Linux APIs:</strong> REGMAP, Platform Devices</p>
-<h2>What I learned</h2>
-<p class="isSelectedEnd">The project gave me practical experience with Linux development at kernel level and helped me understand how the operating system communicates with hardware.</p>
-<p class="isSelectedEnd">It also allowed me to combine my electronics background with software development by working directly with physical peripherals connected through SPI and I²C.</p>
-<p class="isSelectedEnd">The project became the foundation for my further development in <strong>Embedded Linux, Yocto and SoC-based systems</strong>.</p>
-<h2>Source code &amp; Engineering Thesis</h2>
-<p class="isSelectedEnd">The complete source code, individual development stages and the full Engineering Thesis are available in the GitHub repository.</p>
-<p><strong>GitHub:</strong><br><a href="https://github.com/PawelZieba01/LINUX_Drivers_LKM_DT" data-rich-text-autolink="">https://github.com/PawelZieba01/LINUX_Drivers_LKM_DT</a></p>
-<p> </p>
             ]]>
         </content>
     </entry>
