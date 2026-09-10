@@ -3,14 +3,14 @@
     <title>Portfolio</title>
     <link href="https://PawelZieba01.github.io/feed.xml" rel="self" />
     <link href="https://PawelZieba01.github.io" />
-    <updated>2026-09-10T15:55:54+02:00</updated>
+    <updated>2026-09-10T16:09:49+02:00</updated>
     <author>
         <name>Paweł Zięba</name>
     </author>
     <id>https://PawelZieba01.github.io</id>
 
     <entry>
-        <title>Linux Device Drivers – Engineering Thesis</title>
+        <title>[001] Linux Device Drivers – Engineering Thesis</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -78,7 +78,7 @@
         </content>
     </entry>
     <entry>
-        <title>Smart Coffee Machine – ESP32 &amp; Home Assistant</title>
+        <title>[015] Smart Coffee Machine – ESP32 &amp; Home Assistant</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -135,7 +135,7 @@
         </content>
     </entry>
     <entry>
-        <title>FPGA Battleships</title>
+        <title>[002] FPGA Battleships</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -208,7 +208,7 @@
         </content>
     </entry>
     <entry>
-        <title>Smart Beehive Scale</title>
+        <title>[020] Smart Beehive Scale</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -269,7 +269,7 @@
         </content>
     </entry>
     <entry>
-        <title>BeeexAPI – IoT Data Collection &amp; Visualization Platform</title>
+        <title>[010] BeeexAPI – IoT Data Collection &amp; Visualization Platform</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -335,7 +335,7 @@
         </content>
     </entry>
     <entry>
-        <title>PV_DC_driver</title>
+        <title>[005] PV_DC_driver</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -630,7 +630,7 @@
         </content>
     </entry>
     <entry>
-        <title>Android Remote RC Control via UDP</title>
+        <title>[030] Android Remote RC Control via UDP</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -838,7 +838,7 @@ Android_Remote_UDP.b4a  # Main project file
         </content>
     </entry>
     <entry>
-        <title>JABEL 031 Power Supply Mod</title>
+        <title> [050] JABEL 031 Power Supply Mod</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -1024,7 +1024,7 @@ Android_Remote_UDP.b4a  # Main project file
         </content>
     </entry>
     <entry>
-        <title>HA_LAN_RGB_Dimmer_ESP8266</title>
+        <title>[025] HA_LAN_RGB_Dimmer_ESP8266</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
@@ -1279,7 +1279,7 @@ ESP8266 GND → MOSFET GND, LED Strip GND
         </content>
     </entry>
     <entry>
-        <title>WiFi_Thermometer-AP-WWW</title>
+        <title>[040] WiFi_Thermometer-AP-WWW</title>
         <author>
             <name>Paweł Zięba</name>
         </author>
